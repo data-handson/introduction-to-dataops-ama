@@ -1,4 +1,11 @@
-# Terraform
+# Ignore Terraform local files
+.terraform/
+
+# Ignore editor and OS files
+.vscode/
+*.swp
+*.swo
+*.bak# Terraform
 .terraform/
 .terraform.lock.hcl
 *.tfstate
